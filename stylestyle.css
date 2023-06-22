@@ -1,0 +1,65 @@
+.pp{
+    width: 100%;
+}
+
+.project-card{
+    background-color: #fff;
+    border: 1px solid #fff;
+   
+  
+    overflow: hidden; /* defult htb2a visible ya3ny law fe zyada httl3 mn al border*/ 
+    margin: 20px;
+    transition: 0.7s ease;
+    display: inline-block;
+    margin-left: -150px;
+    width: 350px;
+    height: 400px;
+    background-color: #fff;
+    position: relative;
+
+    border-radius: 20px;
+    box-shadow: 10px 20px 8px lightgray;
+ 
+    /* display: inline-block; */
+    margin-left: 20px;
+    margin-bottom: 100px;
+}
+
+
+.project-card:hover{
+    transform: scale(1.1);
+}
+
+.project-card:hover .project-image{
+    opacity: 0.95;
+}
+
+.project-image img{
+    width: 100%;
+}
+
+.project-info{
+    padding: 1em;
+}
+
+.project-category{
+    font-size: 0.8em;
+    color: #000;
+}
+
+.project-title{
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 10px;
+}
+
+.more-details{
+    text-decoration: none;
+    color:#3cc80e;
+}
+
+.more-details:hover{
+    color:#3cc80e;
+}

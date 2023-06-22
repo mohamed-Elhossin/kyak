@@ -1,0 +1,337 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: 'Cormorant SC', serif;f */
+  font-family: "Merriweather", serif;
+  text-decoration: none !important;
+  list-style: none !important;
+}
+
+/* nav {
+  padding-top: 1rem;
+  position: relative;
+}
+
+nav .my_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav h1.logo {
+  margin: 0 !important;
+  font-size: 10px;
+  font-weight: 600;
+}
+
+nav h1.logo a {
+  color: rgb(189, 28, 28) !important;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+nav ul li a {
+  color: black;
+  transition: color 0.3s ease;
+}
+
+nav ul li a.active {
+  font-weight: 600;
+}
+nav ul li a.active,
+nav ul li a:hover {
+  color: rgb(189, 28, 28);
+}
+
+nav ul li a.btn {
+  color: #fff;
+  background-color: #a32323;
+  display: block;
+  padding: 0.8rem;
+  margin-right: 25px;
+  border-radius: 7px;
+  border: 2px solid transparent;
+  transition: 0.3s ease;
+}
+
+nav ul li a.btn:hover {
+  border-color: rgb(189, 28, 28);
+  background-color: transparent;
+  color: #941818;
+}
+
+nav ul li a.btn i {
+  margin-right: 0.5rem;
+  font-size: 1.2rem;
+}
+
+nav ul #closeMenu {
+  display: none;
+  cursor: pointer;
+  color: #fff;
+  font-size: 2rem;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+
+nav #toggleMenu {
+  font-size: 2rem;
+  cursor: pointer;
+  display: none;
+  margin-right: 20px;
+}
+
+/* nav #menu li.line {
+  position: relative;
+} */
+nav #menu li.line a {
+  position: relative;
+}
+nav #menu li.line a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: rgba(124, 0, 0, 0.616);
+  left: 0;
+  bottom: -5px;
+  transform: scale(0);
+  transition: 0.3s ease;
+}
+nav #menu li.line a:hover:before {
+  transform: scale(1);
+}
+
+@media (max-width: 900px) {
+  nav #toggleMenu {
+    display: block;
+  }
+  nav ul#menu {
+    position: fixed;
+    flex-direction: column;
+    top: 0;
+    right: -150%;
+    width: 250px;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    transition: 0.5s ease;
+    gap: 1rem;
+    z-index: 5;
+  }
+  nav ul#menu.active {
+    right: 0;
+  }
+  nav ul li {
+    text-align: center;
+  }
+  nav ul li.line {
+    display: block;
+    color: #fff;
+    border-radius: 10px;
+    transition: 0.3s ease;
+    position: relative;
+  }
+  nav ul li a.active,
+  nav ul li a:hover {
+    background-color: #fff;
+  }
+  nav ul li a.btn {
+    margin: 0 auto;
+    border-color: #fff;
+  }
+  nav ul li a.btn:hover {
+    background-color: none;
+    color: rgb(226, 15, 15);
+  }
+  nav ul #closeMenu {
+    display: block;
+  }
+}
+
+#closeMenu li a::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  left: 30%;
+  display: block;
+  position: absolute;
+  background-color: rgba(226, 15, 15);
+  transition: width 0.3s, left 0.25;
+}
+
+nav li a:hover::after {
+  width: 100%;
+  left: 0%;
+  bottom: 0;
+}
+
+.dropdown-item:hover {
+  background-color: rgba(180, 45, 45, 0.185) !important;
+}
+.Brand img {
+  margin-left: 25px;
+  width: 50px !important;
+  margin-top: 0% !important;
+}
+.Brand a {
+  font-size: 25px;
+  color: black;
+  font-weight: 600;
+  font-family: "Cormorant SC", serif !important;
+}
+.Brand a:hover {
+  color: black;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+.dropdown-toggle:focus {
+  /* border: none !important; */
+  box-shadow: none !important;
+} */
+
+/*=============================
+          end navbar
+  ===============================*/
+
+
+
+
+*{margin: 0;
+padding: 0%;}
+.profile{
+    display: flex;
+    justify-content: space-around;
+
+}
+.profile p{
+    text-align: left;
+    font-size: 50px;
+    
+}
+.personal{
+    display: flex;
+    justify-content: space-around;
+    
+}
+h2{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(189, 28, 28);
+}
+.diseases p{
+font-size: 20px;
+
+}
+.diseases{
+    text-align: left;
+    margin-left: 2em;
+}
+.diseases ol{
+    /* text-align: left; */
+    margin-left: 2em;
+}
+.history{
+    margin-left: 2em;
+    text-align:left ;
+} 
+
+button {
+    background-color: rgb(189, 28, 28);
+    border: rgb(189, 28, 28);
+    color: white;
+    border-radius: 7px;
+    text-align: center;
+    text-decoration: none;
+    width: 130px;
+    height: 50px;
+    font-size: 16px;
+    font-weight: 600;
+    
+  }
+  .container{
+    display: grid;
+    /* justify-content: center; */
+    /* margin-left: -1.5em !important; */
+   border-radius: 50%;
+    margin: auto;
+  }
+  #btn{
+    border-radius: 7px;
+    margin: 3rem;
+    margin-left: 6em;
+  }
+  @media (max-width:325px) {
+    .profile p{
+        font-size: 30px;
+    }
+    h2{
+        font-size: 15px;
+    }
+    .personal{
+        font-size: 10px;
+    }
+    .diseases{
+        font-size: 10px;
+       
+    }
+    .history{
+        font-size: 10px;
+    }
+    .diseases p{
+        font-size: 10px;
+    }
+  }
+  @media (min-width:325px) and (max-width:380px) {
+    .profile p{
+        font-size: 35px;
+    }
+    h2{
+        font-size: 20px;
+    }
+    .personal{
+        font-size: 13px;
+    }
+    .diseases{
+        font-size: 15px;
+    }
+    .history{
+        font-size: 15px;
+    }
+    .diseases p{
+        font-size: 15px;
+    }
+  }
+  .form-container
+{
+  
+    padding: 0% !important;
+    margin-top: 1rem !important;
+    /* margin-right:5em !important; */
+    box-shadow: 0px 0px 4px 4px  rgba(80, 17, 17, 0.35);
+    /* width:150%; */
+    border-radius: 15px;
+   /* margin-right: 10em;  */
+   width: 100%;
+   max-width: 1000px;
+   margin: 1rem auto 0;
+ 
+}
+body, .form-container
+{
+    
+    background-color: #ffffff !important;}
+
+    #nos{
+      display: flex;
+      justify-content: center;
+    }
